@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/Default.aspx" title="Home" description="메인페이지">
+
+    <siteMapNode url="~/Board/BrdAllList.aspx" title="게시판"  description="게시판 보기">
+      <siteMapNode url="~/Board/BrdNotice.aspx" title="공지사항"  description="공지사항 보기" />
+      <siteMapNode url="~/Board/BrdList.aspx?category=free" title="자유 게시판"  description="자유게시판 보기" />
+      <siteMapNode url="~/Board/BrdList.aspx?category=news" title="뉴스 게시판"  description="뉴스게시판 보기" />
+    </siteMapNode>
+
+    <siteMapNode url="~/User/Login.aspx" title="회원"  description="회원 관련 페이지">
+      <siteMapNode url="~/User/Modify.aspx" title="회원정보 수정"  description="회원정보 수정 페이지" />
+      <siteMapNode url="~/User/Register.aspx" title="회원 가입"  description="회원 가입 페이지" />
+      <siteMapNode url="~/User/Terms.aspx" title="이용 약관"  description="이용 약관 보기" />
+    </siteMapNode>
+
+    <siteMapNode url="~/Info.aspx" title="홈페이지 정보" description="홈페이지 정보 페이지">
+      <siteMapNode url="~/support.aspx" title="고객센터" description="고객센터 페이지" />
+    </siteMapNode>
+
+  </siteMapNode>
+  
+</siteMap>
